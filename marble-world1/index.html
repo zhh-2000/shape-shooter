@@ -660,7 +660,6 @@
   // ===== 初始化 =====
   levelProgress[0] = 1;
   renderLevelGrid();
-  document.getElementById('start-btn').addEventListener('click', () => startLevel(0));
   document.getElementById('next-level-btn').addEventListener('click', () => startLevel(currentLevel + 1));
   document.getElementById('replay-level-btn').addEventListener('click', () => startLevel(currentLevel));
   document.getElementById('level-select-btn').addEventListener('click', openLevelSelect);
